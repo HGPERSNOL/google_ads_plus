@@ -39,7 +39,6 @@ class InterAdPlus {
 
   Future<void> loadAndShowInterstitialAd({required String unitID}) async {
     await interAdController.loadInterstitialAd(unitID);
-    // if (interAdController.isInterstitialAdLoaded)
     Future.delayed(const Duration(seconds: 3)).then((value) => interAdController.interstitialAd!.show());
   }
 }

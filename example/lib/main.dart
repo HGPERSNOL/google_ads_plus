@@ -13,7 +13,6 @@ Future<void> main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -51,13 +50,13 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () async {
                 Navigator.push(context, MaterialPageRoute(
                   builder: (context) {
-                    return Demo();
+                    return const Demo();
                   },
                 ));
                 InterAdPlus().loadAndShowInterstitialAd(
                     unitID: "ca-app-pub-3940256099942544/1033173712"); //add google Interstitial ads id
               },
-              child: Text("Click Me For Interst Interstitial Ads"))
+              child: const Text("Click Me For Interstitial Ads"))
         ],
       ),
     );
