@@ -1,3 +1,3 @@
-## 0.0.1
+## [0.0.1] - 2024-04-12
 
-* TODO: Describe initial release.
+A person who want to implement Google Ads in their App can use this package.

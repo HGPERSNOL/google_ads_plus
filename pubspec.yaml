@@ -1,7 +1,8 @@
 name: google_ads_plus
-description: "A new Flutter project."
+description: A person who want to implement Google Ads in their App can use this package.
 version: 0.0.1
-homepage:
+homepage: https://github.com/HGPERSNOL/google_ads_plus.git
+repository: https://github.com/HGPERSNOL/google_ads_plus.git
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -10,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_mobile_ads:
+  get :
+
 
 dev_dependencies:
   flutter_test:

@@ -11,29 +11,33 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter Package to easily implement Google Ads in your application with minimal setup. With this package,
+developers only need to provide their own Google Ads ID, and ads will be seamlessly integrated into their application.
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Features:
+     ->Show Banner Ads
+     ->Show Interstitial Ads
+
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Installation
 
-## Usage
+To use this package, add google_ads_plus as a dependency in your pubspec.yaml file:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+dependencies:
+    google_ads_plus:  # Replace with the latest version
 
-```dart
-const like = 'sample';
-```
+
+Then, import the package in your Dart code:
+    import 'package:google_ads_plus/google_ads_plus.dart';
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+The person who want more information regarding how to implement this package in 
+their app checkout this repository " https://github.com/HGPERSNOL/google_ads_plus.git".
+
+Time to time i will update this package for seamless nd effective usage.
