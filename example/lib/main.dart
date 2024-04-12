@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () async {
                 Navigator.push(context, MaterialPageRoute(
                   builder: (context) {
-                    return demo();
+                    return Demo();
                   },
                 ));
                 InterAdPlus().loadAndShowInterstitialAd(

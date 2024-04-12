@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_mobile_ads:
-  get :
+  google_mobile_ads: ^5.0.0
+  get: ^4.6.6
 
 
 dev_dependencies:

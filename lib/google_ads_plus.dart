@@ -1,7 +1,9 @@
+// ignore_for_file: must_be_immutable
+
 library google_ads_plus;
 
 import 'package:flutter/material.dart';
-import 'package:google_ads_plus/adManager.dart';
+import 'package:google_ads_plus/ad_manager.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class BannerAdPlus extends StatefulWidget {
@@ -38,6 +40,6 @@ class InterAdPlus {
   Future<void> loadAndShowInterstitialAd({required String unitID}) async {
     await interAdController.loadInterstitialAd(unitID);
     // if (interAdController.isInterstitialAdLoaded)
-    Future.delayed(Duration(seconds: 3)).then((value) => interAdController.interstitialAd!.show());
+    Future.delayed(const Duration(seconds: 3)).then((value) => interAdController.interstitialAd!.show());
   }
 }
